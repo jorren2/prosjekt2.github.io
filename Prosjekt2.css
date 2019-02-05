@@ -1,0 +1,75 @@
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns:auto repeat(4,1fr);
+    align-items: center;
+    margin-bottom: 10px;
+}
+nav a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: whitesmoke;
+    font-size: 26px;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px;
+    }
+nav .hjem{
+    background-color: forestgreen;
+    font-weight:800;
+    font-size: 38px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 1px 2px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+body{
+    background-image: url(noytral.jpg);
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    font-size: 25px;
+    background-color: orangered<s;
+    color: black;
+}
+h2{
+    font-size: 40px;
+}
+li{
+    font-size: 45px;
+}
+p{
+    font-size: 35px;
+    grid-row: 2/4;
+    grid-column: 1/2;
+    text-align: left;
+}
+main{
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 50px 375px 375px;
+    grid-gap: 5px;
+}
+img.bilde1{
+    display: flex;
+    align-content: stretch;
+    align-content: flex-start;
+    align-content: space-between;
+    width: 200px;
+}
+p2{
+    text-align: right;
+    grid-row: 2/4;
+    grid-column: 1/2;
+    font-size: 35px;
+}
+p3{
+    font-size: 25px;
+}
